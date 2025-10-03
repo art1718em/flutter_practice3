@@ -34,19 +34,22 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
-              'Тестируем виджет Text',
-              style: TextStyle(
-                fontSize: 28.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.deepPurple,
-                letterSpacing: 2.0,
-                decoration: TextDecoration.underline,
-                decorationThickness: 2.0,
-              ),
-              textAlign: TextAlign.center,
-              overflow: TextOverflow.ellipsis,
-              semanticsLabel: 'Тестовый текст для демонстрации виджета Text',
+              Padding(
+                padding: EdgeInsets.all(16.0),
+                child: Text(
+                  'Тестируем виджет Text',
+                  style: TextStyle(
+                    fontSize: 28.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.deepPurple,
+                    letterSpacing: 2.0,
+                    decoration: TextDecoration.underline,
+                    decorationThickness: 2.0,
+                  ),
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.ellipsis,
+                  semanticsLabel: 'Тестовый текст для демонстрации виджета Text',
+                ),
               ),
               SizedBox(width: 20.0),
               ElevatedButton(
