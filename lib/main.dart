@@ -57,7 +57,6 @@ class MyHomePage extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
               semanticsLabel: 'Тестовый текст для демонстрации виджета Text',
             ),
-            SizedBox(height: 30.0),
             ElevatedButton(
               onPressed: null,
               style: ButtonStyle(
