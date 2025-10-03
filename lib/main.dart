@@ -31,7 +31,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: const Center(
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
@@ -47,8 +47,9 @@ class MyHomePage extends StatelessWidget {
               textAlign: TextAlign.center,
               overflow: TextOverflow.ellipsis,
               semanticsLabel: 'Тестовый текст для демонстрации виджета Text',
-            ),
-            ElevatedButton(
+              ),
+              SizedBox(width: 20.0),
+              ElevatedButton(
               onPressed: null,
               style: ButtonStyle(
                 backgroundColor: WidgetStatePropertyAll(Colors.deepPurple),
